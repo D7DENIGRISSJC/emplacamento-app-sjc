@@ -7,7 +7,7 @@ import os
 from io import BytesIO
 
 # =================== BLOQUEIO DE ACESSO ===================
-SENHA_CORRETA = "23290000"
+SENHA_CORRETA = "28499600"
 
 if "autenticado" not in st.session_state:
     st.session_state.autenticado = False
@@ -348,7 +348,7 @@ with col1_header:
         st.warning("Logo colorido não encontrado.")
 with col2_header:
     st.title("Consulta de Emplacamentos")
-    st.markdown("**Ferramenta interna De Nigris - São José dos Campo** - Busque por cliente, placa ou CNPJ e veja o resumo geral.")
+    st.markdown("**Ferramenta interna De Nigris - São José dos Campos** - Busque por cliente, placa ou CNPJ e veja o resumo geral.")
 
 st.divider()
 
